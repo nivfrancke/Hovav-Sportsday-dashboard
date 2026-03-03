@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>יום ספורט חוב״ב — לוח תוצאות</title>
+  <meta name="description" content="לוח תוצאות חי ליום ספורט חוב״ב">
+
+  <!-- Google Fonts: Heebo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>יום ספורט חוב״ב</h1>
+    <div class="subtitle">לוח תוצאות <span class="live-badge">LIVE</span></div>
+  </header>
+
+  <!-- Section 2: Overall Standings -->
+  <section class="standings-section">
+    <div class="standings-title">סיכום — קטגוריות שנצחו</div>
+    <div id="standings-bar" class="standings-bar">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- Section 1: Category Scores -->
+  <section class="categories-section">
+    <div id="categories-grid" class="categories-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- Section 3: Medals -->
+  <section class="medals-section">
+    <div class="medals-title">מדליות</div>
+    <div id="medals-grid" class="medals-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- Status dot -->
+  <div id="status-dot" class="status-dot"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
