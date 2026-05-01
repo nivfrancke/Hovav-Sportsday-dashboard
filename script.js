@@ -11,7 +11,7 @@ const REFRESH_MS = 5000;
 // Category rows (0-indexed gviz table row indices)
 // gviz uses parsedNumHeaders:2, so sheet row 4 = data index 0
 // Categories: indices 0–5 (sheet rows 4–9), skip index 6 (header), index 7 (שליחים, sheet row 11)
-const CATEGORY_INDICES = [0, 1, 2, 3, 4, 5, 7];
+const CATEGORY_INDICES = [0, 1, 2, 3, 4, 5, 6, 7];
 
 // Medal rows (0-indexed gviz table row indices) — sheet rows 14–16 = data indices 10–12
 const MEDAL_INDICES = [10, 11, 12];
